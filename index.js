@@ -49,5 +49,5 @@ const slashcommandHandler = require('./Handler/slashCommands.js')(bot);
 const eventdHandler = require('./Handler/Events')(bot);
 const anticrashHandler = require('./Handler/anticrash');
 
-client.login(process.env.DISCORD_TOKEN)
+bot.login(process.env.DISCORD_TOKEN)
 anticrashHandler(bot);
